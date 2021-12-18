@@ -1,0 +1,88 @@
+.browserContainer {
+    background-color: #000 !important;
+}
+
+:root:not([uidensity=compact]) #back-button>.toolbarbutton-icon {
+    background-color: initial !important;
+    border: initial !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+    display: none !important;
+}
+
+#navigator-toolbox>toolbar:not(#toolbar-menubar):not(#TabsToolbar):not(#nav-bar) {
+    padding: 0px 4px 4px !important;
+}
+
+.tabbrowser-tab {
+    margin: 0 -28px 0 0px !important;
+}
+
+.tab-background {
+    background: #2E2E2E;
+    border: none !important;
+    border-left: .1px solid #262626 !important;
+    margin: 0 15px !important;
+    outline: 1px solid transparent;
+    -webkit-transform: perspective(100px) rotateX(30deg) !important;
+    -moz-transform: perspective(100px) rotateX(30deg) !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-background {
+    background: #1F1C1C !important;
+}
+
+.tabbrowser-tab[selected="true"] .tab-text.tab-label {
+    color: white !important;
+}
+
+.tab-line {
+    display: none !important;
+}
+
+.tab-content {
+    padding: 0 25px !important;
+}
+
+.tabs-newtab-button.toolbarbutton-1 {
+    margin-right: 200040px !important;
+}
+
+.titlebar-placeholder[type="pre-tabs"] {
+    border-inline-end: initial !important;
+}
+
+#tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab]>.tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+    border-color: var(--tabs-border-color);
+    margin-top: 0;
+    margin-bottom: 1px;
+    opacity: 1;
+    border: none !important;
+}
+
+[tabsintitlebar]:root:not([extradragspace]) .tabbrowser-tab::after,
+.tabbrowser-tab:hover::after,
+#tabbrowser-tabs:not([movingtab])>.tabbrowser-tab[beforehovered]::after {
+    border: none !important;
+}
+
+.tab-text.tab-label {
+    text-shadow: initial !important;
+    color: white !important;
+    font-style: unset;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+#tabs-newtab-button {
+  margin-left: 20px !important;
+}
+.tab-background { 
+box-shadow: none !important;
+border-radius: 1px !important;
+}
+
